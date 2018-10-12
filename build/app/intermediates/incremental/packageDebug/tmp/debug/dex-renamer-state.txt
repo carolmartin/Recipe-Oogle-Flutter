@@ -1,4 +1,0 @@
-#Thu Oct 11 19:43:33 MST 2018
-base.0=/Users/patrickoconnor/workspace/flutter/Recipe-Oogle-Flutter/build/app/intermediates/transforms/dexMerger/debug/0
-path.0=classes.dex
-renamed.0=classes.dex
