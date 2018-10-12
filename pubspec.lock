@@ -270,6 +270,20 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.2.2+4"
+  simple_auth:
+    dependency: transitive
+    description:
+      name: simple_auth
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.0.7"
+  simple_auth_flutter:
+    dependency: "direct main"
+    description:
+      name: simple_auth_flutter
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.0.7"
   sky_engine:
     dependency: transitive
     description: flutter

@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/patrickoconnor/workspace/flutter/Recipe-Oogle-Flutter/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-v18/values-v18.xml",
+            "map": [
+                {
+                    "source": "/Users/patrickoconnor/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/b10e1ac522922b1358c41e4549a02269/res/values-v18/values-v18.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "48",
+                        "endOffsets": "99"
+                    }
+                }
+            ]
+        }
+    ]
+}

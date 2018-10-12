@@ -1,11 +1,15 @@
 import 'package:flutter/material.dart';
+import 'package:simple_auth/simple_auth.dart' as simpleAuth;
+import 'package:simple_auth_flutter/simple_auth_flutter.dart';
 
 void main() => runApp(new MyApp());
 
 class MyApp extends StatelessWidget {
+
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
+    SimpleAuthFlutter.init(context);
     return new MaterialApp(
       title: 'Flutter Demo',
       theme: new ThemeData(
@@ -44,16 +48,17 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   int _counter = 0;
+  final simpleAuth.GoogleApi googleApi = new simpleAuth.GoogleApi("google",
+      "992461286651-k3tsbcreniknqptanrugsetiimt0lkvo.apps.googleusercontent.com",
+      clientSecret: "avrYAIxweNZwcHpsBlIzTp04",
+      scopes: [
+        "https://www.googleapis.com/auth/userinfo.email",
+        "https://www.googleapis.com/auth/userinfo.profile"
+      ]);
 
-  void _incrementCounter() {
-    setState(() {
-      // This call to setState tells the Flutter framework that something has
-      // changed in this State, which causes it to rerun the build method below
-      // so that the display can reflect the updated values. If we changed
-      // _counter without calling setState(), then the build method would not be
-      // called again, and so nothing would appear to happen.
-      _counter++;
-    });
+  void _incrementCounter() async {
+    var profile = await googleApi.getUserProfile();
+    print(profile.name);
   }
 
   @override

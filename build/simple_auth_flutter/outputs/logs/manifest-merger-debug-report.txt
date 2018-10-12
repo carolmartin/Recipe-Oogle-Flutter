@@ -1,0 +1,25 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/patrickoconnor/.pub-cache/hosted/pub.dartlang.org/simple_auth_flutter-1.0.7/android/src/main/AndroidManifest.xml:1:1-7:12
+INJECTED from /Users/patrickoconnor/.pub-cache/hosted/pub.dartlang.org/simple_auth_flutter-1.0.7/android/src/main/AndroidManifest.xml:1:1-7:12
+INJECTED from /Users/patrickoconnor/.pub-cache/hosted/pub.dartlang.org/simple_auth_flutter-1.0.7/android/src/main/AndroidManifest.xml:1:1-7:12
+	package
+		ADDED from /Users/patrickoconnor/.pub-cache/hosted/pub.dartlang.org/simple_auth_flutter-1.0.7/android/src/main/AndroidManifest.xml:2:3-49
+		INJECTED from /Users/patrickoconnor/.pub-cache/hosted/pub.dartlang.org/simple_auth_flutter-1.0.7/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/patrickoconnor/.pub-cache/hosted/pub.dartlang.org/simple_auth_flutter-1.0.7/android/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/patrickoconnor/.pub-cache/hosted/pub.dartlang.org/simple_auth_flutter-1.0.7/android/src/main/AndroidManifest.xml:1:11-69
+application
+ADDED from /Users/patrickoconnor/.pub-cache/hosted/pub.dartlang.org/simple_auth_flutter-1.0.7/android/src/main/AndroidManifest.xml:3:5-6:19
+activity#clancey.simpleauth.simpleauthflutter.WebAuthenticatorActivity
+ADDED from /Users/patrickoconnor/.pub-cache/hosted/pub.dartlang.org/simple_auth_flutter-1.0.7/android/src/main/AndroidManifest.xml:4:9-5:20
+	android:name
+		ADDED from /Users/patrickoconnor/.pub-cache/hosted/pub.dartlang.org/simple_auth_flutter-1.0.7/android/src/main/AndroidManifest.xml:4:19-95
+uses-sdk
+INJECTED from /Users/patrickoconnor/.pub-cache/hosted/pub.dartlang.org/simple_auth_flutter-1.0.7/android/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/patrickoconnor/.pub-cache/hosted/pub.dartlang.org/simple_auth_flutter-1.0.7/android/src/main/AndroidManifest.xml
+INJECTED from /Users/patrickoconnor/.pub-cache/hosted/pub.dartlang.org/simple_auth_flutter-1.0.7/android/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/patrickoconnor/.pub-cache/hosted/pub.dartlang.org/simple_auth_flutter-1.0.7/android/src/main/AndroidManifest.xml
+		ADDED from /Users/patrickoconnor/.pub-cache/hosted/pub.dartlang.org/simple_auth_flutter-1.0.7/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/patrickoconnor/.pub-cache/hosted/pub.dartlang.org/simple_auth_flutter-1.0.7/android/src/main/AndroidManifest.xml
